@@ -256,9 +256,21 @@ p {
 .btn-large:hover {
   background: var(--primary-dark);
   transform: translateY(-2px);
-  box-shadow: 0 10px 30px rgba(155, 24, 255, 0.3);
+  box-shadow: 0 10px 30px rgba(145, 2, 255, 0.3);
 }
 
+.btn-secondary {
+  background: var(--primary);
+  color: var(--white);
+  padding: 0.75rem 1.5rem;
+  font-size: 0.875rem;
+  border-radius: 0.5rem;
+  width: 100%;
+}
+
+.btn-secondary:hover {
+  background: var(--primary-dark);
+}
 
 .social-btn {
   display: flex;
