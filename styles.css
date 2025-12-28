@@ -297,15 +297,6 @@ p {
   stroke: currentColor;
 }
 
-@media (hover: none) {
-  .btn-primary:active,
-  .btn-large:active,
-  .btn-secondary:active,
-  .btn-submit:active {
-    filter: brightness(1.08);
-  }
-}
-
 /* Hero Section */
 .hero {
   min-height: 100vh;
